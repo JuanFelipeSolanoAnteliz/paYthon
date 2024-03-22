@@ -5,5 +5,8 @@ operador = (input("ingrese un opreador ( +, -, * o /)"))
 
 if operador == "+" :
     resultado = num1 + num2
+    print(f"la suma de estos dos numeros es: {resultado}")
+elif operador == "-":
+     
 
 
