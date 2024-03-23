@@ -8,3 +8,9 @@ def determinarGanador(juegoA, juegoB):
         # Verificar si A ganó el set
     if juegoA >= 6 and juegoB - juegoB >= 2:
         return "Gano A"
+juegoA = int(input("Juegos ganados por A: "))
+juegoB = int(input("Juegos ganados por B: "))
+
+# Determinar el resultado del set e imprimirlo
+resultado_set = determinarGanador(juegoA, juegoB)
+print(resultado_set)
